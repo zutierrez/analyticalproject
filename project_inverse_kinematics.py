@@ -67,9 +67,9 @@ inverse_kinematics(position)
 #test case #3: actuation of joint2 and joint4
 position = [0,3,4]
 inverse_kinematics(position)
-#test case #4: reaching to ground
-position = [0,0,0]
+#test case #4: reaching to basket
+position = [0,2,0]
 inverse_kinematics(position)
-#test case #5: out of workspace 
+#test case #5: out of workspace
 position = [0,1000,0]
 inverse_kinematics(position)

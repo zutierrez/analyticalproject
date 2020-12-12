@@ -55,7 +55,7 @@ forward_kinematics(joints)
 #test case #4: actuation of joint1 (waist)
 joints = [pi/2,0,1,0]
 forward_kinematics(joints)
-#test case #4: invalid value of joint3 
+#test case #4: invalid value of joint3
 joints = [pi/2,0,3,0]
 forward_kinematics(joints)
 
